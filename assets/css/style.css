@@ -314,7 +314,10 @@ footer div {
   width: 18px;
   height: 18px;
 }
-
+.socialmedia_icons :hover {
+  fill: #5a3ff4;
+  transition: 0.4s;
+}
 .angle_box {
   border: 2px solid #8c979e;
   width: 35px;
@@ -323,4 +326,14 @@ footer div {
   align-items: center;
   justify-content: center;
   align-self: flex-end;
+}
+
+.angle:hover {
+  transition: 0.4s;
+  fill: #fff;
+}
+
+.angle_box:hover {
+  transition: 0.4s;
+  border: 2px solid #fff;
 }
