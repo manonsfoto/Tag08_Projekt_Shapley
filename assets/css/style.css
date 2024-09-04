@@ -295,7 +295,30 @@ main section div {
   justify-content: space-evenly;
 }
 footer {
-  padding: 6rem;
+  padding: 1rem;
   background-color: #0e1015;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.socialmedia_icons {
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+.angle_box {
+  border: 2px solid #8c979e;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
 }
