@@ -269,6 +269,9 @@ main section div {
 .section7 article img {
   width: 6rem;
 }
+svg {
+  color: #fff;
+}
 .section8 {
   padding: 8rem;
   display: flex;
