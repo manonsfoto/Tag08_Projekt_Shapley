@@ -55,7 +55,7 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
-ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -288,6 +288,22 @@ main section div {
   text-align: center;
   align-items: center;
   row-gap: 4rem;
+}
+
+.section8 ul {
+  display: flex;
+  list-style: none;
+  width: 60rem;
+  justify-content: space-between;
+}
+.section8_logos {
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+.section8_logos:hover {
+  opacity: 1;
+  transition: 0.4s;
 }
 .section9 {
   padding: 8rem;
