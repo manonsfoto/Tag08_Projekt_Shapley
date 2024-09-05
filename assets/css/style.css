@@ -201,7 +201,7 @@ main section div {
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
-  padding-top: 7rem;
+  padding: 7rem 0 0 0;
 }
 
 .section6_title {
@@ -222,6 +222,7 @@ main section div {
 .gallery article a {
   height: 420px;
   width: 620px;
+  overflow: hidden;
 }
 .gallery img {
   width: 100%;
