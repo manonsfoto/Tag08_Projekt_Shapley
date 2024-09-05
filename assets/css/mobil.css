@@ -29,15 +29,31 @@
   .section7 a {
     display: none;
   }
-}
-.section7 div {
-  width: 100%;
-}
+  .section2 div,
+  .section3 div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 2rem;
+  }
+  .section7 div {
+    width: 100%;
+  }
 
-footer div {
-  gap: 0;
-  justify-content: space-around;
+  footer div {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .section9 {
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section9 h2,
+  .section9 a {
+    width: 100%;
+    text-align: center;
+  }
 }
-/* .section9 {
-  flex-direction: column;
-} */
