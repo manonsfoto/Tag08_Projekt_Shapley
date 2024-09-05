@@ -41,10 +41,6 @@
     width: 100%;
   }
 
-  footer div {
-    gap: 0;
-    justify-content: space-around;
-  }
   .section9 {
     flex-direction: column;
     row-gap: 1rem;

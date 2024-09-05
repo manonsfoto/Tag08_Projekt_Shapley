@@ -321,7 +321,6 @@ footer ul {
 }
 footer div {
   display: flex;
-  gap: 50rem;
   justify-content: space-around;
   align-items: center;
 }
