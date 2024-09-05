@@ -26,4 +26,10 @@
   .section5 img {
     width: 80%;
   }
+  .section7 div {
+    width: 60rem;
+  }
+}
+footer div {
+  gap: 20rem;
 }

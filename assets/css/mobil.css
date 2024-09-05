@@ -2,7 +2,42 @@
   h1 {
     font-size: 2.5rem;
   }
+  h2 {
+    font-size: 1.8rem;
+  }
   p {
     font-size: 12px;
   }
+
+  .section2,
+  .section3 {
+    flex-direction: column;
+  }
+  .section2 img,
+  .section3 img {
+    width: 100%;
+  }
+  .section3 div {
+    order: 1;
+  }
+  .section3 img {
+    order: 2;
+  }
+  .section5 img {
+    width: 100%;
+  }
+  .section7 a {
+    display: none;
+  }
 }
+.section7 div {
+  width: 100%;
+}
+
+footer div {
+  gap: 0;
+  justify-content: space-around;
+}
+/* .section9 {
+  flex-direction: column;
+} */
